@@ -1,0 +1,221 @@
+name: FomoWell
+
+description: >
+    FomoWell is a fair launch platform for Web3 projects on the ICP blockchain.
+
+logo: logo.png
+
+url: https://fomowell.com/
+
+NnsProposal:
+    title: "NNS Proposal to create an SNS named 'FomoWell'"
+    url: https://forum.dfinity.org/t/introducing-kongswap/35607
+
+    summary:  |
+      **Distribution**
+      * Total token supply -  1 Billion
+      * Allocated to treasury -  65%
+      * Allocated to decentralization sale -  20%
+      * Allocated to developer neurons -  15%
+      * The Ledger Transaction fee is 0.001 WELL
+      
+      **Decentralization SWAP**
+      * Min participation - 1 ICP
+      * Min participants -  100
+      * Min to be raised -  20,000 ICP
+      * Max to be raised -  100,000 ICP
+
+      **Learn more**
+      * [Whitepaper](https://fomowell.com/)
+      * [Github](https://github.com/NovaICLabs/fomowell_app)
+      * [Website](https://fomowell.com/ )
+
+fallback_controller_principals:
+    - 4xi2o-hiaaa-aaaam-acs6q-cai
+
+dapp_canisters:
+    - 52g6a-iaaaa-aaaam-acsza-cai
+    - 4xi2o-hiaaa-aaaam-acs6q-cai
+
+Token:
+    name: FomoWell
+
+    symbol: WELL
+
+    transaction_fee: 100_000 e8s
+
+    logo: logo.png
+
+Proposals:
+    rejection_fee: 1_000 token
+
+    initial_voting_period: 4 days
+
+    maximum_wait_for_quiet_deadline_extension: 1 day
+
+
+Neurons:
+    minimum_creation_stake: 50 tokens
+
+Voting:
+    minimum_dissolve_delay: 1 month
+
+    MaximumVotingPowerBonuses:
+        DissolveDelay:
+            duration: 36 months
+            bonus: 100%
+
+        Age:
+            duration: 12 months
+            bonus: 25%
+
+    RewardRate:
+        initial: 1%
+        final: 1%
+        transition_duration: 2 years
+
+Distribution:
+    Neurons:
+
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 0
+          dissolve_delay: "1 months"
+          vesting_period: "6 months"
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 1
+          dissolve_delay: "1 months"
+          vesting_period: "9 months"
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 2
+          dissolve_delay: "1 months"
+          vesting_period: "12 months"
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 3
+          dissolve_delay: "1 months"
+          vesting_period: "15 months"
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 4
+          dissolve_delay: "1 months"
+          vesting_period: "18 months"
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 5
+          dissolve_delay: "1 months"
+          vesting_period: "21 months"
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 6
+          dissolve_delay: "0 months"
+          vesting_period: "24 months"
+        - principal: "esk2o-lfiq4-c7d7i-grp7s-2mvvt-nhikc-qejqg-3vjtc-4occv-itecx-5ae"
+          stake: "9_375_000 tokens"
+          memo: 7
+          dissolve_delay: "0 months"
+          vesting_period: "27 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_375_000 tokens"
+          memo: 8
+          dissolve_delay: "1 months"
+          vesting_period: "6 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_375_000 tokens"
+          memo: 9
+          dissolve_delay: "1 months"
+          vesting_period: "9 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_375_000 tokens"
+          memo: 10
+          dissolve_delay: "1 months"
+          vesting_period: "12 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_375_000 tokens"
+          memo: 11
+          dissolve_delay: "1 months"
+          vesting_period: "15 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_375_000 tokens"
+          memo: 12
+          dissolve_delay: "1 months"
+          vesting_period: "18 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_375_000 tokens"
+          memo: 13
+          dissolve_delay: "1 months"
+          vesting_period: "21 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_375_000 tokens"
+          memo: 14
+          dissolve_delay: "0 months"
+          vesting_period: "24 months"
+        - principal: "ufggo-xjcjr-mms7v-ehy73-hmqmp-h7frp-wtvgc-jxinl-s3fcp-52ale-pqe"
+          stake: "9_374_500 tokens"
+          memo: 15
+          dissolve_delay: "0 months"
+          vesting_period: "27 months"
+        - principal: "fr23j-srvxy-b3cuh-qxzci-pry53-c73s4-2asih-4oubi-lo5zv-h3gne-4ae"
+          stake: "500 tokens"
+          memo: 16
+          dissolve_delay: "0 months"
+          vesting_period: "0 months"
+        
+
+          
+    InitialBalances:
+        treasury: 650_000_000 tokens
+        swap: 200_000_000 tokens
+
+    total: 1_000_000_000 tokens
+
+Swap:
+    minimum_participants: 100
+
+    minimum_direct_participation_icp: 20_000 tokens
+
+    maximum_direct_participation_icp: 100_000 tokens
+
+    minimum_participant_icp: 1 tokens
+
+    maximum_participant_icp: 100_000 tokens
+
+    restricted_countries:
+        - AF  
+        - BY
+        - BA
+        - BI
+        - CF
+        - KP
+        - CD
+        - CU
+        - IR
+        - IQ
+        - LB
+        - LY
+        - ML
+        - ME
+        - MM
+        - NI
+        - RU
+        - RS
+        - SO
+        - SD
+        - SY
+        - UA
+        - VE
+        - YE
+        - ZW
+        
+    confirmation_text: >
+      I confirm my understanding of the responsibilities and risks associated with participating in this token swap.
+
+    VestingSchedule:
+        events: 3
+        interval: 3 months
+
+    duration: 14 days
+
+    neurons_fund_participation: true
