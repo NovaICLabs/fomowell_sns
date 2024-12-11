@@ -9,7 +9,7 @@ url: https://fomowell.com/
 
 NnsProposal:
     title: "NNS Proposal to create an SNS named 'FomoWell'"
-    url: https://forum.dfinity.org/t/introducing-kongswap/35607
+    url: https://forum.dfinity.org/t/upcoming-fomowell-dao-sns-decentralization-sale/38711
 
     summary:  |
       **Distribution**
@@ -26,7 +26,7 @@ NnsProposal:
       * Max to be raised -  100,000 ICP
 
       **Learn more**
-      * [Whitepaper](https://fomowell.com/)
+      * [Whitepaper](https://github.com/NovaICLabs/fomowell_sns/raw/refs/heads/main/FomoWell%20Whitepaper%20vison1.0.pdf)
       * [Github](https://github.com/NovaICLabs/fomowell_app)
       * [Website](https://fomowell.com/ )
 
