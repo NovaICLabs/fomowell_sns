@@ -33,6 +33,7 @@ NnsProposal:
 fallback_controller_principals:
     - 3noum-4ilzu-5zp6u-memkw-raekc-bmhge-oenil-6jaog-h4a7p-hlahe-iqe
     - fr23j-srvxy-b3cuh-qxzci-pry53-c73s4-2asih-4oubi-lo5zv-h3gne-4ae
+    - jugku-nldvl-doy4j-7my4u-ju7fa-ssxnx-wpxhh-b2jyy-qnygi-lkx3b-yqe
 
 dapp_canisters:
     - 52g6a-iaaaa-aaaam-acsza-cai
@@ -158,7 +159,7 @@ Distribution:
           memo: 15
           dissolve_delay: "0 months"
           vesting_period: "27 months"
-        - principal: "fr23j-srvxy-b3cuh-qxzci-pry53-c73s4-2asih-4oubi-lo5zv-h3gne-4ae"
+        - principal: "jugku-nldvl-doy4j-7my4u-ju7fa-ssxnx-wpxhh-b2jyy-qnygi-lkx3b-yqe"
           stake: "500 tokens"
           memo: 16
           dissolve_delay: "0 months"
